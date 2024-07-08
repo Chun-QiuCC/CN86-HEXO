@@ -1,0 +1,94 @@
+# Theme Github link: https://github.com/korilin/hexo-theme-particle
+# Developer: korilin
+
+# html lang
+language: zh
+
+# avatar image url
+head_img: logo.jpg
+
+# home page head info block
+head_block_enable: true
+
+# home page head background style.
+# If you use a picture as background, you must use the css background-image attribute instead of the background attribute.
+# Use image as background ==> home_background: "background-image:url('../home.jpg')"
+# Use a color as background ==> home_background: "background: balck"
+home_background: "background-image:url('https://t.alcy.cc/pc/')"
+
+# Particle theme icon is adopts the ant design vue icons
+# Link：https://www.antdv.com/components/icon-cn/
+
+# main menu navigation
+menu:
+  主页:
+    icon:
+      name: home
+      theme: filled
+    src: /
+  关于:
+    icon:
+      name: idcard
+      theme: filled
+    src: /about # 当你的博客root为 '/' 时
+  Wiki:
+    icon:
+      name: book
+      theme: filled
+    src: 'https://wiki.cn86.dev/'
+  拓扑图:
+    icon:
+      name: apartment
+      theme: outlined
+    src: 'http://cn86.lzteam.cloud/tracert.php' 
+  论坛:
+    icon:
+      name: message
+      theme: outlined
+    src: 'https://bbs.cn86.dev'
+# side info card
+card:
+  enable: true
+  description: ["心所想", "皆可往"]
+  icon_links:
+    github:
+      icon:
+        type: antd-icon
+        name: github
+        theme: filled
+        src:
+      link: https://github.com/chun-qiucc/cn86-hexo
+    bilibili:
+      icon:
+        type: antd-icon
+        name: youtube
+        theme: filled
+        src:
+      link: https://space.bilibili.com/183450641
+  friend_links:
+    🌸春樱云计算🌸: https://www.haruzakura.com
+    春秋的博客: https://code.cq.cn
+    LuocyNET: https://www.luocynet.com/
+    LZTeamSE: https://www.lzteam.cloud/
+
+# footer info
+footer:
+  since: 2024
+  # Customize the server domain name ICP
+  ICP:
+    enable: false
+    code: 
+
+# Gitalk
+# https://github.com/gitalk/gitalk
+gitalk:
+  enable: true
+  clientID: # GitHub Application Client ID
+  clientSecret: # GitHub Application Client Secret
+  repo: hexo-theme-particle # The name of repository of store comments
+  owner: korilin # GitHub repo owner
+  admin: korilin # GitHub repo owner and collaborators, only these guys can initialize github issues
+  language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available.
+
+# theme style: full / night / maiden, defalut: full
+style: night
