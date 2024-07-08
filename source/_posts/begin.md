@@ -7,6 +7,7 @@ date: 2024-7-8
    
   在 [此表格](https://docs.qq.com/sheet/DSGlGeWtTRE9RV3hW) 内查看已被注册的IP地址/地址块和域名，防止和他人冲突
 ## WireGuard安装、连接教学
+### Windows
  1. 下载 [wireguard-amd64-0.5.3.msi](https://drive.crashblock.top/api/v3/file/source/25889/wireguard-amd64-0.5.3.msi?sign=yhneTtGctyM6ysjBaV7Vi3Zpwahla4J7faQyjZxf2vo%3D%3A0) 并安装
  2. 安装完后打开Windows栏里搜索“WireGuard”并打开
  3. 打开后点击左下角的“新建隧道”右边的小三角，选择空白隧道
@@ -32,3 +33,7 @@ date: 2024-7-8
  6. 将**你的**公钥发给对端，申请与其他人进行Peer以连入CN86网络，为了稳定，你也可以与多人进行Peer
  7. 对方同意并添加了你的连入请求后，点击右边的连接  
  8. 如果右边的节点版块下方有一行 **“上次握手时间: X秒前”** 则说明你已和对端成功 Peer
+### Linux
+待更新
+### Openwrt
+待更新
