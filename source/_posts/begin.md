@@ -34,6 +34,39 @@ date: 2024-7-8
  7. 对方同意并添加了你的连入请求后，点击右边的连接  
  8. 如果右边的节点版块下方有一行 **“上次握手时间: X秒前”** 则说明你已和对端成功 Peer
 ### Linux
-待更新
+
+以Debian系Linux系统为例 (或其他使用apt作为包管理器的系统)
+
+1. 安装WireGuard
+
+```shell
+sudo apt update && sudo apt install wireguard
+```
+2. 生成密钥对
+
+```shell
+wg genkey | sudo tee /etc/wireguard/privatekey | wg pubkey | sudo tee /etc/wireguard/publickey
+```
+
+生成的私钥将保存在 ```/etc/wireguard/privatekey``` 中，公钥将保存在 ```/etc/wireguard/publickey``` 中。
+
+使用 ```cat``` 命令查看私钥和公钥。切记***不要泄露私钥给任何一个人。***
+
+3. 编写WireGuard配置
+
+创建名为```wg0```的WireGuard配置文件
+```shell
+sudo vim /etc/wireguard/wg0.conf
+```
+配置文件请参照Windows平台教程，请注意，需要自己填写Interface私钥
+5. 启动WireGuard
+```shell
+sudo wg-quick up wg0
+```
+6. 使用systemctl运行wireguard (可选)
+
+```shell
+systemctl status|start|stop|restart|enable|disable wireguard@wg0
+ ```
 ### Openwrt
 待更新
