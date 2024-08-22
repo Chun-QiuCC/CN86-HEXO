@@ -20,7 +20,7 @@ date: 2024-7-8
 
  5. 将下面这段配置写在PricateKey下面
  ```conf
- DNS = 10.86.1.86
+ DNS = 10.86.86.86
  Address = [这里填入你申请的IP地址]
 
  [Peer]
