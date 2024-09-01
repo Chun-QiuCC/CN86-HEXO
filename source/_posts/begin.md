@@ -3,9 +3,9 @@ title: 快速开始 | Begin
 date: 2024-7-8
 ---
 ## 说明
- [加群](https://qm.qq.com/cgi-bin/qm/qr?k=ZrLIxTgGY5P7W8SgNGfZWlLCY1kcf9Ev&jump_from=webapi&authKey=sqA+q7NjvCydLhxv5+bynRK3Jgu8DnVo6PIMenYPGrNwMNB32fd9cFFmZ3qKwpe2) 在群内申请注册你的IP地址和域名
+ 由于9月1日全CN86进行架构大改，本篇教程并不完整，目前仅包含基础的WireGuard教程  
+ 建议 [加入QQ群](https://qm.qq.com/cgi-bin/qm/qr?k=ZrLIxTgGY5P7W8SgNGfZWlLCY1kcf9Ev&jump_from=webapi&authKey=sqA+q7NjvCydLhxv5+bynRK3Jgu8DnVo6PIMenYPGrNwMNB32fd9cFFmZ3qKwpe2) 在群内了解详细信息
    
-  在 [此表格](https://docs.qq.com/sheet/DSGlGeWtTRE9RV3hW) 内查看已被注册的IP地址/地址块和域名，防止和他人冲突
 ## WireGuard安装、连接教学
 ### Windows
  1. 下载 [wireguard-amd64-0.5.3.msi](https://drive.crashblock.top/api/v3/file/source/25889/wireguard-amd64-0.5.3.msi?sign=yhneTtGctyM6ysjBaV7Vi3Zpwahla4J7faQyjZxf2vo%3D%3A0) 并安装
