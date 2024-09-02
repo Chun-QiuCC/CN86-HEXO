@@ -41,11 +41,16 @@ menu:
       name: apartment
       theme: outlined
     src: 'http://cn86.lzteam.cloud/tracert.php' 
-  论坛:
+  官网Github:
     icon:
-      name: message
-      theme: outlined
-    src: 'https://bbs.cn86.dev'
+      name: github
+      theme: filled
+    src: 'https://github.com/Chun-QiuCC/CN86-HEXO'
+  Gitea:
+    icon:
+      name: github
+      theme: filled
+    src: 'https://git.cn86.dev'
 # side info card
 card:
   enable: true
